@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+html{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -217,4 +221,7 @@ header {
     margin-top: 10px;
   }
 }
-
+h1{
+  text-align: center;
+  color: rgb(68, 44, 35);
+}
