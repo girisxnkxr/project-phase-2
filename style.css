@@ -79,6 +79,7 @@ header {
     margin-left: 40px;
     
 }
+
 .p img{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -202,6 +203,7 @@ header {
 @media (min-width: 600px) {
   .p {
     justify-content: space-around;
+    
   }
   .p1 {
     width: 30%;
@@ -211,6 +213,10 @@ header {
 }
 }
 @media (max-width: 768px) {
+  .p{
+    flex-direction: column;
+    margin-left: 30px;
+  }
   .nav-container {
     flex-direction: column;
     align-items: center;
